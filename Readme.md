@@ -110,7 +110,7 @@ eventer(messageEvent, function(e) {
 ```json
 
 {
-"data":  {
+	"data":  {
 		"class":  "ECOM",
 		"action":  "AUTH | SALE",
 		"capture_method":  "MANUAL | AUTOMATIC",
@@ -119,39 +119,39 @@ eventer(messageEvent, function(e) {
 			"m_order_id":  "1234",
 			"amount":  "500",
 			"convenience_fee":  "0",
-			"currency":  "AED", // should be dynamic
+			"currency":  "AED", /* should be dynamic */
 			"description":  "",
-			"quantity":  "1"  // should be dynamic
+			"quantity":  "1"  /* should be dynamic */
 		},
 		"customer_details":  {
 			"m_customer_id":  "123",
 			name: "John Doe",
-            email: "johndoe@example.com",
-            mobile: "987654321",
-            code: "971", // without leading + 
+			email: "johndoe@example.com",
+			mobile: "987654321",
+			code: "971", /* without leading + */ 
 		},
 		"billing_details":  {
 			addressLine1: "Po Box 12322",
-            addressLine2: "Jebel Ali Free Zone",
-            city: "Dubai",
-            province: "Dubai", // state
-            country: "AE", // Alpha-2 country codes
-            pin: "54044",
+			addressLine2: "Jebel Ali Free Zone",
+			city: "Dubai",
+			province: "Dubai", /* state */
+			country: "AE", /* Alpha-2 country codes */
+			pin: "54044",
 		},
 		"shipping_details":  {
 			shippingName: "John Doe",
-            shippingEmail: "email@company.com",
-            shippingCode: "971", // without leading + 
-            shippingMobile: "987654321",
-            addressLine1: "Po Box 12322",
-            addressLine2: "Jebel Ali Free Zone",
-            city: "Dubai",
-            province: "Dubai", // state
-            country: "AE", // Alpha-2 country codes
-            pin: "54044",
-            locationPin: "{URL}", // Placeholder URL
-            shippingCurrency: "AED", // should be dynamic
-            shippingAmount: "0",
+			shippingEmail: "email@company.com",
+			shippingCode: "971", /* without leading + */ 
+			shippingMobile: "987654321",
+			addressLine1: "Po Box 12322",
+			addressLine2: "Jebel Ali Free Zone",
+			city: "Dubai",
+			province: "Dubai", /* state */
+			country: "AE", /* Alpha-2 country codes */
+			pin: "54044",
+			locationPin: "{URL}", /* Placeholder URL */
+			shippingCurrency: "AED", /* should be dynamic */
+			shippingAmount: "0",
 		},
 		"urls":  {
 			"success":  "",
