@@ -7,6 +7,9 @@
 3. [Configuration Options](#configuration-options)
 4. [Required Fields](#required-fields)
 
+Signup for sandbox account: https://merchant.payorc.com/console/merchant-signup
+Visit API documentation: https://api.payorc.com
+
 ## Installation
 
 Include the PayOrc SDK in your HTML file:
